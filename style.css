@@ -1,0 +1,44 @@
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#FFF8EE;
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+}
+.container{
+background:#fff;
+width:90%;
+max-width:420px;
+padding:30px;
+border-radius:24px;
+text-align:center;
+box-shadow:0 10px 30px rgba(0,0,0,.12);
+}
+h1{color:#2E7D32;margin-bottom:5px}
+.sub{color:#777;margin-top:0}
+.badge{
+display:inline-block;
+background:#F4A52C;
+padding:10px 18px;
+border-radius:999px;
+font-weight:bold;
+margin:15px 0;
+}
+.btn{
+display:block;
+margin:12px 0;
+padding:14px;
+border-radius:14px;
+text-decoration:none;
+font-weight:bold;
+color:white;
+}
+.shopee{background:#EE4D2D}
+.wa{background:#25D366}
+.ig{background:#C13584}
+.tt{background:#111}
+.tokped{background:#42B549}
+.toco{background:#3A86FF}
+.footer{margin-top:20px;color:#888;font-size:13px}
