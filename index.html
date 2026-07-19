@@ -1,27 +1,499 @@
-WEB/
-│
-├── index.html
-│
-├── css/
-│   └── style.css
-│
-├── js/
-│   └── script.js
-│
-└── assets/
-    ├── banner/
-    │   └── hero-banner.png
-    │
-    ├── logo/
-    │   ├── heybi-navbar.png
-    │   ├── heybi-logo.png
-    │   ├── favicon.png
-    │   └── paw-icon.png
-    │
-    └── marketplace/
-        ├── shopee.png
-        ├── tiktok.png
-        ├── tokopedia.png
-        ├── blibli.png
-        ├── toco.png
-        └── whatsapp.png
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+    <!-- ===================================================== -->
+    <!-- META -->
+    <!-- ===================================================== -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HEYBI! | Little Adventure Club</title>
+
+    <meta name="description"
+        content="Kaos anak original dengan karakter lucu, bahan premium, nyaman dipakai bermain setiap hari.">
+
+    <meta name="keywords"
+        content="Kaos Anak, Baju Anak, Heybi, Little Adventure Club, Kaos Premium Anak">
+
+    <meta name="author" content="HEYBI">
+
+    <meta name="theme-color" content="#FFF8EE">
+
+    <!-- Open Graph -->
+
+    <meta property="og:title" content="HEYBI! Little Adventure Club">
+
+    <meta property="og:description"
+        content="Kaos anak original dengan karakter lucu.">
+
+    <meta property="og:image"
+        content="assets/banner/hero-banner.jpg">
+
+    <meta property="og:type" content="website">
+
+    <!-- Font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Manifest -->
+
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Favicon -->
+
+    <link rel="icon" href="assets/logo/favicon.png">
+
+</head>
+
+<body>
+
+<!-- ================= Loading ================= -->
+
+<div id="loader">
+
+    <div class="loader-circle"></div>
+
+</div>
+
+<!-- =========================================== -->
+
+<div class="container">
+
+<!-- ===================================================== -->
+
+<header>
+
+<img
+src="assets/logo/logo.png"
+alt="HEYBI Logo"
+class="logo">
+
+<h1>HEYBI!</h1>
+
+<p class="tagline">
+
+Little Adventure Club
+
+</p>
+
+<p class="description">
+
+Kaos anak original dengan karakter lucu, bahan premium,
+nyaman dipakai bermain setiap hari.
+
+</p>
+
+</header>
+
+<!-- ===================================================== -->
+
+<section class="hero">
+
+<img
+src="assets/banner/hero-banner.jpg"
+alt="HEYBI Banner"
+loading="lazy">
+
+</section>
+
+<!-- ===================================================== -->
+
+<section class="marketplace">
+
+<h2>
+
+Pilih Marketplace Favoritmu
+
+</h2>
+
+<div class="button-grid">
+
+<a href="#" target="_blank" class="market-btn">
+
+<img src="assets/icons/shopee.svg">
+
+<span>Shopee</span>
+
+</a>
+
+<a href="#" target="_blank" class="market-btn">
+
+<img src="assets/icons/tokopedia.svg">
+
+<span>Tokopedia</span>
+
+</a>
+
+<a href="#" target="_blank" class="market-btn">
+
+<img src="assets/icons/tiktok.svg">
+
+<span>TikTok Shop</span>
+
+</a>
+
+<a href="#" target="_blank" class="market-btn">
+
+<img src="assets/icons/instagram.svg">
+
+<span>Instagram</span>
+
+</a>
+
+<a href="#" target="_blank" class="market-btn">
+
+<img src="assets/icons/whatsapp.svg">
+
+<span>WhatsApp</span>
+
+</a>
+
+<a href="#" target="_blank" class="market-btn">
+
+<img src="assets/icons/facebook.svg">
+
+<span>Facebook</span>
+
+</a>
+
+</div>
+
+</section>
+
+<!-- ===================================================== -->
+
+<section class="best">
+
+<h2>
+
+Best Collection
+
+</h2>
+
+<div class="product-slider">
+
+<div class="product-card">
+
+<span class="badge">
+
+BEST SELLER
+
+</span>
+
+<img
+src="assets/products/toby.jpg"
+loading="lazy">
+
+<h3>
+
+Toby Tiger
+
+</h3>
+
+<p>
+
+Rp49.000
+
+</p>
+
+</div>
+
+<div class="product-card">
+
+<img
+src="assets/products/ollie.jpg"
+loading="lazy">
+
+<h3>
+
+Ollie Otter
+
+</h3>
+
+<p>
+
+Rp49.000
+
+</p>
+
+</div>
+
+<div class="product-card">
+
+<img
+src="assets/products/rumi.jpg"
+loading="lazy">
+
+<h3>
+
+Rumi Red Panda
+
+</h3>
+
+<p>
+
+Rp49.000
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ===================================================== -->
+
+<section class="why">
+
+<h2>
+
+Kenapa Pilih HEYBI?
+
+</h2>
+
+<div class="why-grid">
+
+<div class="why-card">
+
+<img src="assets/icons/star.svg">
+
+<p>Original Character</p>
+
+</div>
+
+<div class="why-card">
+
+<img src="assets/icons/cotton.svg">
+
+<p>Premium Cotton</p>
+
+</div>
+
+<div class="why-card">
+
+<img src="assets/icons/shirt.svg">
+
+<p>Nyaman Dipakai</p>
+
+</div>
+
+<div class="why-card">
+
+<img src="assets/icons/stock.svg">
+
+<p>Ready Stock</p>
+
+</div>
+
+<div class="why-card">
+
+<img src="assets/icons/chat.svg">
+
+<p>Fast Response</p>
+
+</div>
+
+<div class="why-card">
+
+<img src="assets/icons/box.svg">
+
+<p>Packing Aman</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ===================================================== -->
+
+<section class="characters">
+
+<h2>
+
+Meet Our Friends
+
+</h2>
+
+<div class="character-grid">
+
+<div class="character-card">
+
+<img src="assets/character/toby.png">
+
+<h3>Toby Tiger</h3>
+
+</div>
+
+<div class="character-card">
+
+<img src="assets/character/ollie.png">
+
+<h3>Ollie Otter</h3>
+
+</div>
+
+<div class="character-card">
+
+<img src="assets/character/rumi.png">
+
+<h3>Rumi Red Panda</h3>
+
+</div>
+
+<div class="character-card">
+
+<img src="assets/character/pico.png">
+
+<h3>Pico Panda</h3>
+
+</div>
+
+<div class="character-card">
+
+<img src="assets/character/finn.png">
+
+<h3>Finn Fox</h3>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ===================================================== -->
+
+<section class="testimonial">
+
+<h2>
+
+Apa Kata Mereka?
+
+</h2>
+
+<div class="testimonial-slider">
+
+<div class="testimonial-card">
+
+⭐⭐⭐⭐⭐
+
+<p>
+
+"Bahan adem dan anak saya suka sekali karakter Toby."
+
+</p>
+
+</div>
+
+<div class="testimonial-card">
+
+⭐⭐⭐⭐⭐
+
+<p>
+
+"Packing rapi, kualitas premium."
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ===================================================== -->
+
+<section class="cta">
+
+<h2>
+
+Yuk Belanja Sekarang!
+
+</h2>
+
+<a
+href="#"
+class="cta-button"
+target="_blank">
+
+Belanja Sekarang
+
+</a>
+
+</section>
+
+<!-- ===================================================== -->
+
+<footer>
+
+<img
+src="assets/logo/logo-small.png"
+class="footer-logo">
+
+<p>
+
+© 2026 HEYBI.
+
+All Rights Reserved.
+
+</p>
+
+<div class="footer-social">
+
+<a href="#">
+
+Instagram
+
+</a>
+
+<a href="#">
+
+Facebook
+
+</a>
+
+<a href="#">
+
+TikTok
+
+</a>
+
+</div>
+
+</footer>
+
+</div>
+
+<!-- Floating Button -->
+
+<a
+href="#"
+class="floating-wa">
+
+WA
+
+</a>
+
+<button
+id="backTop">
+
+↑
+
+</button>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
